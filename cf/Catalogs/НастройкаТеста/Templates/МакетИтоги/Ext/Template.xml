@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НастройкаТеста</dataPath>
+			<field>НастройкаТеста</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекстЗапросаPostgres</dataPath>
+			<field>ТекстЗапросаPostgres</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСобытия</dataPath>
+			<field>НомерСобытия</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСессии</dataPath>
+			<field>НомерСессии</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидСобытия</dataPath>
+			<field>ВидСобытия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекстЗапросаMSSQL</dataPath>
+			<field>ТекстЗапросаMSSQL</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСтрокMSSQL</dataPath>
+			<field>КоличествоСтрокMSSQL</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлительностьВыполненияMSSQL</dataPath>
+			<field>ДлительностьВыполненияMSSQL</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСтрокPostgres</dataPath>
+			<field>КоличествоСтрокPostgres</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлительностьВыполненияPostgres</dataPath>
+			<field>ДлительностьВыполненияPostgres</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОшибки</dataPath>
+			<field>ВидОшибки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекстОшибки</dataPath>
+			<field>ТекстОшибки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаСобытия</dataPath>
+			<field>ДатаСобытия</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОшибкаПреобразования</dataPath>
+			<field>ОшибкаПреобразования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОшибкаПриВыполнения</dataPath>
+			<field>ОшибкаПриВыполнения</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ  
+	НастройкаТеста КАК НастройкаТеста,
+	ДатаСобытия КАК ДатаСобытия,
+	НомерСессии КАК НомерСессии,
+	НомерСобытия КАК НомерСобытия,
+	ВидСобытия КАК ВидСобытия,
+	ТекстЗапросаMSSQL КАК ТекстЗапросаMSSQL,
+	КоличествоСтрокMSSQL КАК КоличествоСтрокMSSQL,
+	ДлительностьВыполненияMSSQL КАК ДлительностьВыполненияMSSQL,
+	ТекстЗапросаPostgres КАК ТекстЗапросаPostgres,
+	КоличествоСтрокPostgres КАК КоличествоСтрокPostgres,
+	ДлительностьВыполненияPostgres КАК ДлительностьВыполненияPostgres,
+	ВидОшибки КАК ВидОшибки,
+	ОшибкаПреобразования КАК ОшибкаПреобразования,
+	ТекстОшибки КАК ТекстОшибки,
+	ОшибкаПриВыполнения КАК ОшибкаПриВыполнения,
+	1 КАК Количество
+ИЗ
+	РегистрСведений.РезультатыВыполненияЗапросов КАК РезультатыВыполненияЗапросов 
+ГДЕ
+	НастройкаТеста = &amp;НастройкаТеста</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<parameter>
+		<name>НастройкаТеста</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Настройка теста</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.НастройкаТеста</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидОшибки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидСобытия</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТекстЗапросаMSSQL</dcsset:left>
+					<dcsset:comparisonType>Contains</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string"/>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

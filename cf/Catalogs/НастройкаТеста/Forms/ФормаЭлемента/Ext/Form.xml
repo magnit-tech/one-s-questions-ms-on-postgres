@@ -1,0 +1,3346 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПоказатьПараметры" id="165">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПоказатьПараметры</CommandName>
+				<ExtendedTooltip name="ФормаПоказатьПараметрыРасширеннаяПодсказка" id="166"/>
+			</Button>
+			<Button name="Шапка" id="420">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Шапка</CommandName>
+				<ExtendedTooltip name="ШапкаРасширеннаяПодсказка" id="421"/>
+			</Button>
+			<Button name="Отбор" id="418">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Отбор</CommandName>
+				<ExtendedTooltip name="ОтборРасширеннаяПодсказка" id="419"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnSaveDataInSettingsAtServer">ПриСохраненииДанныхВНастройкахНаСервере</Event>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОсновная" id="167">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа основная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОсновнаяРасширеннаяПодсказка" id="168"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаШапка" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа шапка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаШапкаЛевая" id="28">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка левая</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка левая</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаШапкаЛеваяРасширеннаяПодсказка" id="29"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаКодДата" id="30">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа код дата</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа код дата</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаКодДатаРасширеннаяПодсказка" id="31"/>
+									<ChildItems>
+										<InputField name="Код" id="1">
+											<DataPath>Объект.Code</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+										</InputField>
+										<InputField name="Дата" id="7">
+											<DataPath>Объект.Дата</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>от</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДатаКонтекстноеМеню" id="8"/>
+											<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="9"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="РежимЗагрузкиСобытий" id="10">
+									<DataPath>Объект.РежимЗагрузкиСобытий</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>из папки (*.XML)</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>из базы с событиями</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="РежимЗагрузкиСобытийКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="РежимЗагрузкиСобытийРасширеннаяПодсказка" id="12"/>
+									<Events>
+										<Event name="OnChange">РежимЗагрузкиСобытийПриИзменении</Event>
+									</Events>
+								</InputField>
+								<UsualGroup name="ГруппаЗагрузкаИзПапки" id="34">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа загрузка из папки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа загрузка из папки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗагрузкаИзПапкиРасширеннаяПодсказка" id="35"/>
+									<ChildItems>
+										<InputField name="ПапкаССобытиямиMSSQL" id="16">
+											<DataPath>Объект.ПапкаССобытиямиMSSQL</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ChoiceButton>true</ChoiceButton>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ПапкаССобытиямиMSSQLКонтекстноеМеню" id="17"/>
+											<ExtendedTooltip name="ПапкаССобытиямиMSSQLРасширеннаяПодсказка" id="18"/>
+											<Events>
+												<Event name="StartChoice">ПапкаССобытиямиMSSQLНачалоВыбора</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаЗагрузкаИзБазы" id="36">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа загрузка из базы</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа загрузка из базы</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЗагрузкаИзБазыРасширеннаяПодсказка" id="37"/>
+									<ChildItems>
+										<InputField name="СтрокаПодключенияКБазеСобытий" id="13">
+											<DataPath>Объект.СтрокаПодключенияКБазеСобытий</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="СтрокаПодключенияКБазеСобытийКонтекстноеМеню" id="14"/>
+											<ExtendedTooltip name="СтрокаПодключенияКБазеСобытийРасширеннаяПодсказка" id="15"/>
+										</InputField>
+										<UsualGroup name="ГруппаАутентификацияБазыСобытий" id="410">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа аутентификация базы событий</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа аутентификация базы событий</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаАутентификацияБазыСобытийРасширеннаяПодсказка" id="411"/>
+											<ChildItems>
+												<InputField name="ПользовательБазыСобытий" id="412">
+													<DataPath>Объект.ПользовательБазыСобытий</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пользователь</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПользовательБазыСобытийКонтекстноеМеню" id="413"/>
+													<ExtendedTooltip name="ПользовательБазыСобытийРасширеннаяПодсказка" id="414"/>
+												</InputField>
+												<InputField name="ПарольБазыСобытий" id="415">
+													<DataPath>Объект.ПарольБазыСобытий</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пароль</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ПарольБазыСобытийКонтекстноеМеню" id="416"/>
+													<ExtendedTooltip name="ПарольБазыСобытийРасширеннаяПодсказка" id="417"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<LabelField name="ТекстСтатистики" id="149">
+									<DataPath>ТекстСтатистики</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<TextColor>style:FieldSelectionBackColor</TextColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+									<ContextMenu name="ТекстСтатистикиКонтекстноеМеню" id="150"/>
+									<ExtendedTooltip name="ТекстСтатистикиРасширеннаяПодсказка" id="151"/>
+								</LabelField>
+								<LabelField name="ТекстДлительности" id="159">
+									<DataPath>ТекстДлительности</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="ТекстДлительностиКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="ТекстДлительностиРасширеннаяПодсказка" id="161"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаШапкаПравая" id="32">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка правая</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка правая</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаШапкаПраваяРасширеннаяПодсказка" id="33"/>
+							<ChildItems>
+								<InputField name="ПутьКФайлуВТ" id="19">
+									<DataPath>Объект.ПутьКФайлуВТ</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ChoiceButton>true</ChoiceButton>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПутьКФайлуВТКонтекстноеМеню" id="20"/>
+									<ExtendedTooltip name="ПутьКФайлуВТРасширеннаяПодсказка" id="21"/>
+									<Events>
+										<Event name="StartChoice">ПутьКФайлуВТНачалоВыбора</Event>
+									</Events>
+								</InputField>
+								<InputField name="СтрокаПодключенияКPostgres" id="22">
+									<DataPath>Объект.СтрокаПодключенияКPostgres</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СтрокаПодключенияКPostgresКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="СтрокаПодключенияКPostgresРасширеннаяПодсказка" id="24"/>
+								</InputField>
+								<InputField name="Описание" id="25">
+									<DataPath>Объект.Описание</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ОписаниеКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="27"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТаблицы" id="106">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа таблицы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТаблицыРасширеннаяПодсказка" id="107"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаДанные" id="141">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДанныеРасширеннаяПодсказка" id="142"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаОтбор" id="279">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отбор</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отбор</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОтборРасширеннаяПодсказка" id="280"/>
+									<ChildItems>
+										<CommandBar name="ГруппаКоманднаяПанельОтбора" id="281">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа командная панель отбора</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа командная панель отбора</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ExtendedTooltip name="ГруппаКоманднаяПанельОтбораРасширеннаяПодсказка" id="282"/>
+										</CommandBar>
+										<Table name="РезультатыВыполненияЗапросовОтбор" id="128">
+											<Representation>Tree</Representation>
+											<Autofill>true</Autofill>
+											<Width>60</Width>
+											<InitialTreeView>ExpandAllLevels</InitialTreeView>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>РезультатыВыполненияЗапросов.Filter</DataPath>
+											<ViewMode>All</ViewMode>
+											<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
+											<ContextMenu name="РезультатыВыполненияЗапросовОтборКонтекстноеМеню" id="129"/>
+											<AutoCommandBar name="РезультатыВыполненияЗапросовОтборКоманднаяПанель" id="130">
+												<Autofill>false</Autofill>
+												<ChildItems>
+													<Button name="РезультатыВыполненияЗапросовОтборДобавитьЭлементОтбора" id="395">
+														<Type>CommandBarButton</Type>
+														<Representation>Picture</Representation>
+														<CommandName>Form.Item.РезультатыВыполненияЗапросовОтбор.StandardCommand.AddFilterItem</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборДобавитьЭлементОтбораРасширеннаяПодсказка" id="396"/>
+													</Button>
+													<Button name="СохранитьОтбор" id="283">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СохранитьОтбор</CommandName>
+														<ExtendedTooltip name="СохранитьОтборРасширеннаяПодсказка" id="284"/>
+													</Button>
+													<Popup name="РезультатыВыполненияЗапросовОтборГруппаЗагрузитьОтбор" id="285">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Загрузить отбор</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Результаты выполнения запросов отбор группа загрузить отбор</v8:content>
+															</v8:item>
+														</ToolTip>
+														<Picture>
+															<xr:Ref>StdPicture.LoadReportSettings</xr:Ref>
+															<xr:LoadTransparent>true</xr:LoadTransparent>
+														</Picture>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборГруппаЗагрузитьОтборРасширеннаяПодсказка" id="286"/>
+													</Popup>
+													<Button name="РезультатыВыполненияЗапросовОтборНастройкаОтбора" id="292">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.НастройкаОтбора</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборНастройкаОтбораРасширеннаяПодсказка" id="293"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовОтборДобавитьГруппуЭлементовОтбора" id="383">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.РезультатыВыполненияЗапросовОтбор.StandardCommand.AddFilterItemGroup</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборДобавитьГруппуЭлементовОтбораРасширеннаяПодсказка" id="384"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовОтборСгруппироватьЭлементыОтбора" id="385">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.РезультатыВыполненияЗапросовОтбор.StandardCommand.GroupFilterItems</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборСгруппироватьЭлементыОтбораРасширеннаяПодсказка" id="386"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовОтборРазгруппировать" id="387">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.РезультатыВыполненияЗапросовОтбор.StandardCommand.Ungroup</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборРазгруппироватьРасширеннаяПодсказка" id="388"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовОтборПереместитьВверх" id="389">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.РезультатыВыполненияЗапросовОтбор.StandardCommand.MoveUp</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборПереместитьВверхРасширеннаяПодсказка" id="390"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовОтборПереместитьВниз" id="391">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.РезультатыВыполненияЗапросовОтбор.StandardCommand.MoveDown</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборПереместитьВнизРасширеннаяПодсказка" id="392"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовОтборУдалить" id="393">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Item.РезультатыВыполненияЗапросовОтбор.StandardCommand.Delete</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборУдалитьРасширеннаяПодсказка" id="394"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборРасширеннаяПодсказка" id="131"/>
+											<SearchStringAddition name="РезультатыВыполненияЗапросовОтборСтрокаПоиска" id="132">
+												<AdditionSource>
+													<Item>РезультатыВыполненияЗапросовОтбор</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РезультатыВыполненияЗапросовОтборСтрокаПоискаКонтекстноеМеню" id="133"/>
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборСтрокаПоискаРасширеннаяПодсказка" id="134"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="РезультатыВыполненияЗапросовОтборСостояниеПросмотра" id="135">
+												<AdditionSource>
+													<Item>РезультатыВыполненияЗапросовОтбор</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="РезультатыВыполненияЗапросовОтборСостояниеПросмотраКонтекстноеМеню" id="136"/>
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборСостояниеПросмотраРасширеннаяПодсказка" id="137"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="РезультатыВыполненияЗапросовОтборУправлениеПоиском" id="138">
+												<AdditionSource>
+													<Item>РезультатыВыполненияЗапросовОтбор</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="РезультатыВыполненияЗапросовОтборУправлениеПоискомКонтекстноеМеню" id="139"/>
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовОтборУправлениеПоискомРасширеннаяПодсказка" id="140"/>
+											</SearchControlAddition>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="РезультатыВыполненияЗапросов" id="40">
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>РезультатыВыполненияЗапросов</DataPath>
+									<RowPictureDataPath>РезультатыВыполненияЗапросов.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="РезультатыВыполненияЗапросовКонтекстноеМеню" id="41">
+										<ChildItems>
+											<Button name="РезультатыВыполненияЗапросовУбратьОшибкуСозданияВременнойТаблицы1" id="287">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.УбратьОшибкуПреобразования</CommandName>
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовУбратьОшибкуСозданияВременнойТаблицы1РасширеннаяПодсказка" id="288"/>
+											</Button>
+											<ButtonGroup name="РезультатыВыполненияЗапросовКонтекстноеМенюГруппа1" id="446">
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовКонтекстноеМенюГруппа1РасширеннаяПодсказка" id="447"/>
+												<ChildItems>
+													<Button name="РезультатыВыполненияЗапросовКонтекстноеМенюСоздатьТекстыПоВыделеннымСтрокам" id="399">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СоздатьТекстыПоВыделеннымСтрокам</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовКонтекстноеМенюСоздатьТекстыПоВыделеннымСтрокамРасширеннаяПодсказка" id="400"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовКонтекстноеМенюСоздатьТекстыПоОтбору" id="444">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СоздатьТекстыПоОтбору</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовКонтекстноеМенюСоздатьТекстыПоОтборуРасширеннаяПодсказка" id="445"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+											<Button name="РезультатыВыполненияЗапросовКонтекстноеМенюТекстЗапросаСВТ" id="401">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ТекстЗапросаСВТ</CommandName>
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовКонтекстноеМенюТекстЗапросаСВТРасширеннаяПодсказка" id="402"/>
+											</Button>
+										</ChildItems>
+									</ContextMenu>
+									<AutoCommandBar name="РезультатыВыполненияЗапросовКоманднаяПанель" id="42">
+										<ChildItems>
+											<Popup name="Загрузить" id="100">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Загрузка</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Загрузить</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="ЗагрузитьРасширеннаяПодсказка" id="101"/>
+												<ChildItems>
+													<ButtonGroup name="РезультатыВыполненияЗапросовГруппа1" id="157">
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовГруппа1РасширеннаяПодсказка" id="158"/>
+													</ButtonGroup>
+													<Button name="РезультатыВыполненияЗапросовЗагрузитьВсе" id="104">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ЗагрузитьВсе</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовЗагрузитьВсеРасширеннаяПодсказка" id="105"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовЗагрузитьДанные" id="94">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ЗагрузитьДанные</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Данные</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовЗагрузитьДанныеРасширеннаяПодсказка" id="95"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовЗагрузитьВременныеТаблицы" id="102">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ЗагрузитьВременныеТаблицы</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Временные таблицы</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовЗагрузитьВременныеТаблицыРасширеннаяПодсказка" id="103"/>
+													</Button>
+													<ButtonGroup name="РезультатыВыполненияЗапросовГруппа5" id="437">
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовГруппа5РасширеннаяПодсказка" id="438"/>
+														<ChildItems>
+															<Button name="РезультатыВыполненияЗапросовДополнитьВременныеТаблицы" id="435">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ДополнитьВременныеТаблицы</CommandName>
+																<ExtendedTooltip name="РезультатыВыполненияЗапросовДополнитьВременныеТаблицыРасширеннаяПодсказка" id="436"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+												</ChildItems>
+											</Popup>
+											<Popup name="СозданиеТекстов" id="267">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Создание текстов</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Создание текстов</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="СозданиеТекстовРасширеннаяПодсказка" id="268"/>
+												<ChildItems>
+													<Button name="РезультатыВыполненияЗапросовСоздатьВременныеТаблицы" id="355">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СоздатьВременныеТаблицы</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовСоздатьВременныеТаблицыРасширеннаяПодсказка" id="356"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовУстановкаСвязанныхЗапросов" id="422">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.УстановкаСвязанныхЗапросов</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовУстановкаСвязанныхЗапросовРасширеннаяПодсказка" id="423"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовСоздатьТекстыЗапросов" id="96">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.СоздатьТекстыЗапросов</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовСоздатьТекстыЗапросовРасширеннаяПодсказка" id="97"/>
+													</Button>
+													<ButtonGroup name="РезультатыВыполненияЗапросовГруппа3" id="353">
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовГруппа3РасширеннаяПодсказка" id="354"/>
+														<ChildItems>
+															<Button name="РезультатыВыполненияЗапросовУбратьОшибкуПреобразования" id="277">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.УбратьОшибкуПреобразования</CommandName>
+																<ExtendedTooltip name="РезультатыВыполненияЗапросовУбратьОшибкуПреобразованияРасширеннаяПодсказка" id="278"/>
+															</Button>
+															<Button name="РезультатыВыполненияЗапросовСоздатьТекстыПоВыделеннымСтрокам" id="397">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.СоздатьТекстыПоВыделеннымСтрокам</CommandName>
+																<ExtendedTooltip name="РезультатыВыполненияЗапросовСоздатьТекстыПоВыделеннымСтрокамРасширеннаяПодсказка" id="398"/>
+															</Button>
+															<Button name="РезультатыВыполненияЗапросовСоздатьТекстыПоОтбору" id="442">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.СоздатьТекстыПоОтбору</CommandName>
+																<ExtendedTooltip name="РезультатыВыполненияЗапросовСоздатьТекстыПоОтборуРасширеннаяПодсказка" id="443"/>
+															</Button>
+															<Button name="РезультатыВыполненияЗапросовТекстЗапросаСВТ" id="351">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ТекстЗапросаСВТ</CommandName>
+																<ExtendedTooltip name="РезультатыВыполненияЗапросовТекстЗапросаСВТРасширеннаяПодсказка" id="352"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+												</ChildItems>
+											</Popup>
+											<Popup name="РезультатыВыполненияЗапросовГруппа2" id="346">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Выполнить</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовГруппа2РасширеннаяПодсказка" id="347"/>
+												<ChildItems>
+													<ButtonGroup name="РезультатыВыполненияЗапросовГруппа4" id="426">
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовГруппа4РасширеннаяПодсказка" id="427"/>
+														<ChildItems>
+															<Button name="РезультатыВыполненияЗапросовВыполнитьЗапросы" id="98">
+																<Type>CommandBarButton</Type>
+																<CommandName>Form.Command.ВыполнитьЗапросы</CommandName>
+																<ExtendedTooltip name="РезультатыВыполненияЗапросовВыполнитьЗапросыРасширеннаяПодсказка" id="99"/>
+															</Button>
+														</ChildItems>
+													</ButtonGroup>
+													<Button name="РезультатыВыполненияЗапросовВыполнитьЗапросыПоВыделеннымСтрокам" id="424">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ВыполнитьЗапросыПоВыделеннымСтрокам</CommandName>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовВыполнитьЗапросыПоВыделеннымСтрокамРасширеннаяПодсказка" id="425"/>
+													</Button>
+												</ChildItems>
+											</Popup>
+											<Popup name="Удалить" id="124">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Удалить</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Удалить</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="УдалитьРасширеннаяПодсказка" id="125"/>
+												<ChildItems>
+													<Button name="РезультатыВыполненияЗапросовУдалитьДанные" id="92">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.УдалитьДанные</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовУдалитьДанныеРасширеннаяПодсказка" id="93"/>
+													</Button>
+													<Button name="РезультатыВыполненияЗапросовУдалитьДанныеСОтбором" id="126">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.УдалитьДанныеСОтбором</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Удалить с отбором</v8:content>
+															</v8:item>
+														</Title>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="РезультатыВыполненияЗапросовУдалитьДанныеСОтборомРасширеннаяПодсказка" id="127"/>
+													</Button>
+												</ChildItems>
+											</Popup>
+											<Button name="ПоказТекстаMSSQL" id="143">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ПоказТекстаMSSQL</CommandName>
+												<ExtendedTooltip name="ПоказТекстаMSSQLРасширеннаяПодсказка" id="144"/>
+											</Button>
+											<Button name="ПоказТекстаPG" id="145">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ПоказТекстаPG</CommandName>
+												<ExtendedTooltip name="ПоказТекстаPGРасширеннаяПодсказка" id="146"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="РезультатыВыполненияЗапросовРасширеннаяПодсказка" id="43"/>
+									<SearchStringAddition name="РезультатыВыполненияЗапросовСтрокаПоиска" id="44">
+										<AdditionSource>
+											<Item>РезультатыВыполненияЗапросов</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РезультатыВыполненияЗапросовСтрокаПоискаКонтекстноеМеню" id="45"/>
+										<ExtendedTooltip name="РезультатыВыполненияЗапросовСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="РезультатыВыполненияЗапросовСостояниеПросмотра" id="47">
+										<AdditionSource>
+											<Item>РезультатыВыполненияЗапросов</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РезультатыВыполненияЗапросовСостояниеПросмотраКонтекстноеМеню" id="48"/>
+										<ExtendedTooltip name="РезультатыВыполненияЗапросовСостояниеПросмотраРасширеннаяПодсказка" id="49"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="РезультатыВыполненияЗапросовУправлениеПоиском" id="50">
+										<AdditionSource>
+											<Item>РезультатыВыполненияЗапросов</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="РезультатыВыполненияЗапросовУправлениеПоискомКонтекстноеМеню" id="51"/>
+										<ExtendedTooltip name="РезультатыВыполненияЗапросовУправлениеПоискомРасширеннаяПодсказка" id="52"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="РезультатыВыполненияЗапросовНастройкаТеста" id="53">
+											<DataPath>РезультатыВыполненияЗапросов.НастройкаТеста</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовНастройкаТестаКонтекстноеМеню" id="54"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовНастройкаТестаРасширеннаяПодсказка" id="55"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовНомерСессии" id="56">
+											<DataPath>РезультатыВыполненияЗапросов.НомерСессии</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовНомерСессииКонтекстноеМеню" id="57"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовНомерСессииРасширеннаяПодсказка" id="58"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовНомерСобытия" id="59">
+											<DataPath>РезультатыВыполненияЗапросов.НомерСобытия</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовНомерСобытияКонтекстноеМеню" id="60"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовНомерСобытияРасширеннаяПодсказка" id="61"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовДатаСобытия" id="152">
+											<DataPath>РезультатыВыполненияЗапросов.ДатаСобытия</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовДатаСобытияКонтекстноеМеню" id="153"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовДатаСобытияРасширеннаяПодсказка" id="154"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовИмяСобытия" id="62">
+											<DataPath>~РезультатыВыполненияЗапросов.ИмяСобытия</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовИмяСобытияКонтекстноеМеню" id="63"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовИмяСобытияРасширеннаяПодсказка" id="64"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовВидСобытия" id="65">
+											<DataPath>РезультатыВыполненияЗапросов.ВидСобытия</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовВидСобытияКонтекстноеМеню" id="66"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовВидСобытияРасширеннаяПодсказка" id="67"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовТекстЗапросаMSSQL" id="68">
+											<DataPath>РезультатыВыполненияЗапросов.ТекстЗапросаMSSQL</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовТекстЗапросаMSSQLКонтекстноеМеню" id="69"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовТекстЗапросаMSSQLРасширеннаяПодсказка" id="70"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовКоличествоСтрокMSSQL" id="71">
+											<DataPath>РезультатыВыполненияЗапросов.КоличествоСтрокMSSQL</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовКоличествоСтрокMSSQLКонтекстноеМеню" id="72"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовКоличествоСтрокMSSQLРасширеннаяПодсказка" id="73"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовДлительностьВыполненияMSSQL" id="74">
+											<DataPath>РезультатыВыполненияЗапросов.ДлительностьВыполненияMSSQL</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовДлительностьВыполненияMSSQLКонтекстноеМеню" id="75"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовДлительностьВыполненияMSSQLРасширеннаяПодсказка" id="76"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовТекстЗапросаPostgres" id="77">
+											<DataPath>РезультатыВыполненияЗапросов.ТекстЗапросаPostgres</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовТекстЗапросаPostgresКонтекстноеМеню" id="78"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовТекстЗапросаPostgresРасширеннаяПодсказка" id="79"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовКоличествоСтрокPostgres" id="80">
+											<DataPath>РезультатыВыполненияЗапросов.КоличествоСтрокPostgres</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовКоличествоСтрокPostgresКонтекстноеМеню" id="81"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовКоличествоСтрокPostgresРасширеннаяПодсказка" id="82"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовДлительностьВыполненияPostgres" id="83">
+											<DataPath>РезультатыВыполненияЗапросов.ДлительностьВыполненияPostgres</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовДлительностьВыполненияPostgresКонтекстноеМеню" id="84"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовДлительностьВыполненияPostgresРасширеннаяПодсказка" id="85"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовВидОшибки" id="86">
+											<DataPath>РезультатыВыполненияЗапросов.ВидОшибки</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовВидОшибкиКонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовВидОшибкиРасширеннаяПодсказка" id="88"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовОшибкаПреобразования" id="162">
+											<DataPath>РезультатыВыполненияЗапросов.ОшибкаПреобразования</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовОшибкаПреобразованияКонтекстноеМеню" id="163"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовОшибкаПреобразованияРасширеннаяПодсказка" id="164"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовОшибкаПриВыполнения" id="448">
+											<DataPath>РезультатыВыполненияЗапросов.ОшибкаПриВыполнения</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовОшибкаПриВыполненияКонтекстноеМеню" id="449"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовОшибкаПриВыполненияРасширеннаяПодсказка" id="450"/>
+										</LabelField>
+										<LabelField name="РезультатыВыполненияЗапросовТекстОшибки" id="89">
+											<DataPath>РезультатыВыполненияЗапросов.ТекстОшибки</DataPath>
+											<ContextMenu name="РезультатыВыполненияЗапросовТекстОшибкиКонтекстноеМеню" id="90"/>
+											<ExtendedTooltip name="РезультатыВыполненияЗапросовТекстОшибкиРасширеннаяПодсказка" id="91"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаОсновнаяЛевая" id="108">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа основная левая</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа основная левая</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОсновнаяЛеваяРасширеннаяПодсказка" id="109"/>
+							<ChildItems>
+								<InputField name="ТекстMSSQL" id="116">
+									<DataPath>Items.РезультатыВыполненияЗапросов.CurrentData.ТекстЗапросаMSSQL</DataPath>
+									<Visible>false</Visible>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТекстMSSQLКонтекстноеМеню" id="117"/>
+									<ExtendedTooltip name="ТекстMSSQLРасширеннаяПодсказка" id="118"/>
+								</InputField>
+								<InputField name="ТекстPG" id="119">
+									<DataPath>Items.РезультатыВыполненияЗапросов.CurrentData.ТекстЗапросаPostgres</DataPath>
+									<Visible>false</Visible>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТекстPGКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="ТекстPGРасширеннаяПодсказка" id="121"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПараметры" id="169">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа параметры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа параметры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПараметрыРасширеннаяПодсказка" id="170"/>
+			<ChildItems>
+				<Pages name="ГруппаПараметрыСтраницы" id="300">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа параметры страницы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа параметры страницы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПараметрыСтраницыРасширеннаяПодсказка" id="301"/>
+					<ChildItems>
+						<Page name="ГруппаПараметрыОбщая" id="302">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Общие</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа параметры общая</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ГруппаПараметрыОбщаяРасширеннаяПодсказка" id="303"/>
+							<ChildItems>
+								<UsualGroup name="Группа1" id="428">
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="429"/>
+									<ChildItems>
+										<InputField name="ПорцияЗагрузкиДанных" id="294">
+											<DataPath>Объект.ПорцияЗагрузкиДанных</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ПорцияЗагрузкиДанныхКонтекстноеМеню" id="295"/>
+											<ExtendedTooltip name="ПорцияЗагрузкиДанныхРасширеннаяПодсказка" id="296"/>
+										</InputField>
+										<InputField name="ДобавитьЧасыКДатеПриЗагрузке" id="454">
+											<DataPath>Объект.ДобавитьЧасыКДатеПриЗагрузке</DataPath>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ДобавитьЧасыКДатеПриЗагрузкеКонтекстноеМеню" id="455"/>
+											<ExtendedTooltip name="ДобавитьЧасыКДатеПриЗагрузкеРасширеннаяПодсказка" id="456"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="ИнтервалОбработкиДанных" id="297">
+									<DataPath>Объект.ИнтервалОбработкиДанных</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ИнтервалОбработкиДанныхКонтекстноеМеню" id="298"/>
+									<ExtendedTooltip name="ИнтервалОбработкиДанныхРасширеннаяПодсказка" id="299"/>
+								</InputField>
+								<CheckBoxField name="НеЗагружатьПропущенныеЗапросы" id="171">
+									<DataPath>Объект.НеЗагружатьПропущенныеЗапросы</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НеЗагружатьПропущенныеЗапросыКонтекстноеМеню" id="172"/>
+									<ExtendedTooltip name="НеЗагружатьПропущенныеЗапросыРасширеннаяПодсказка" id="173"/>
+								</CheckBoxField>
+								<CheckBoxField name="НеЗагружатьНенужныеЗапросы" id="439">
+									<DataPath>Объект.НеЗагружатьНенужныеЗапросы</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="НеЗагружатьНенужныеЗапросыКонтекстноеМеню" id="440"/>
+									<ExtendedTooltip name="НеЗагружатьНенужныеЗапросыРасширеннаяПодсказка" id="441"/>
+								</CheckBoxField>
+								<InputField name="СохранятьИсправленныеВТ" id="403">
+									<DataPath>Объект.СохранятьИсправленныеВТ</DataPath>
+									<ListChoiceMode>true</ListChoiceMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Задавать вопрос</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сохранять без вопроса</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Не сохранять без вопроса</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">2</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="СохранятьИсправленныеВТКонтекстноеМеню" id="404"/>
+									<ExtendedTooltip name="СохранятьИсправленныеВТРасширеннаяПодсказка" id="405"/>
+								</InputField>
+								<InputField name="ТаймаутЗапросовНаPostgres" id="430">
+									<DataPath>Объект.КоэффициентОжиданияВыполненияЗапросовНаPostgres</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТаймаутЗапросовНаPostgresКонтекстноеМеню" id="431"/>
+									<ExtendedTooltip name="ТаймаутЗапросовНаPostgresРасширеннаяПодсказка" id="432"/>
+								</InputField>
+								<InputField name="МинимальнаяДлительностьВыполненияЗапроса" id="451">
+									<DataPath>Объект.МинимальнаяДлительностьВыполненияЗапроса</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="МинимальнаяДлительностьВыполненияЗапросаКонтекстноеМеню" id="452"/>
+									<ExtendedTooltip name="МинимальнаяДлительностьВыполненияЗапросаРасширеннаяПодсказка" id="453"/>
+								</InputField>
+								<Table name="ЭтапыОбработкиДанных" id="306">
+									<HeightControlVariant>UseHeightInTableRows</HeightControlVariant>
+									<AutoMaxRowsCount>false</AutoMaxRowsCount>
+									<MaxRowsCount>5</MaxRowsCount>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>ЭтапыОбработкиДанных</DataPath>
+									<RowPictureDataPath>ЭтапыОбработкиДанных.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="ЭтапыОбработкиДанныхКонтекстноеМеню" id="307"/>
+									<AutoCommandBar name="ЭтапыОбработкиДанныхКоманднаяПанель" id="308"/>
+									<ExtendedTooltip name="ЭтапыОбработкиДанныхРасширеннаяПодсказка" id="309"/>
+									<SearchStringAddition name="ЭтапыОбработкиДанныхСтрокаПоиска" id="310">
+										<AdditionSource>
+											<Item>ЭтапыОбработкиДанных</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ЭтапыОбработкиДанныхСтрокаПоискаКонтекстноеМеню" id="311"/>
+										<ExtendedTooltip name="ЭтапыОбработкиДанныхСтрокаПоискаРасширеннаяПодсказка" id="312"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ЭтапыОбработкиДанныхСостояниеПросмотра" id="313">
+										<AdditionSource>
+											<Item>ЭтапыОбработкиДанных</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ЭтапыОбработкиДанныхСостояниеПросмотраКонтекстноеМеню" id="314"/>
+										<ExtendedTooltip name="ЭтапыОбработкиДанныхСостояниеПросмотраРасширеннаяПодсказка" id="315"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ЭтапыОбработкиДанныхУправлениеПоиском" id="316">
+										<AdditionSource>
+											<Item>ЭтапыОбработкиДанных</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ЭтапыОбработкиДанныхУправлениеПоискомКонтекстноеМеню" id="317"/>
+										<ExtendedTooltip name="ЭтапыОбработкиДанныхУправлениеПоискомРасширеннаяПодсказка" id="318"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="ЭтапыОбработкиДанныхЭтапОбработки" id="337">
+											<DataPath>ЭтапыОбработкиДанных.ЭтапОбработки</DataPath>
+											<ContextMenu name="ЭтапыОбработкиДанныхЭтапОбработкиКонтекстноеМеню" id="338"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхЭтапОбработкиРасширеннаяПодсказка" id="339"/>
+										</LabelField>
+										<CheckBoxField name="ЭтапыОбработкиДанныхЗавершен" id="322">
+											<DataPath>ЭтапыОбработкиДанных.Завершен</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ЭтапыОбработкиДанныхЗавершенКонтекстноеМеню" id="323"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхЗавершенРасширеннаяПодсказка" id="324"/>
+										</CheckBoxField>
+										<LabelField name="ЭтапыОбработкиДанныхДлительность" id="319">
+											<DataPath>ЭтапыОбработкиДанных.Длительность</DataPath>
+											<ContextMenu name="ЭтапыОбработкиДанныхДлительностьКонтекстноеМеню" id="320"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхДлительностьРасширеннаяПодсказка" id="321"/>
+										</LabelField>
+										<LabelField name="ЭтапыОбработкиДанныхНастройкаТеста" id="325">
+											<DataPath>ЭтапыОбработкиДанных.НастройкаТеста</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="ЭтапыОбработкиДанныхНастройкаТестаКонтекстноеМеню" id="326"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхНастройкаТестаРасширеннаяПодсказка" id="327"/>
+										</LabelField>
+										<LabelField name="ЭтапыОбработкиДанныхНомерИтерации" id="328">
+											<DataPath>ЭтапыОбработкиДанных.НомерИтерации</DataPath>
+											<ContextMenu name="ЭтапыОбработкиДанныхНомерИтерацииКонтекстноеМеню" id="329"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхНомерИтерацииРасширеннаяПодсказка" id="330"/>
+										</LabelField>
+										<LabelField name="ЭтапыОбработкиДанныхТекущаяДатаСобытия" id="331">
+											<DataPath>ЭтапыОбработкиДанных.ТекущаяДатаСобытия</DataPath>
+											<ContextMenu name="ЭтапыОбработкиДанныхТекущаяДатаСобытияКонтекстноеМеню" id="332"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхТекущаяДатаСобытияРасширеннаяПодсказка" id="333"/>
+										</LabelField>
+										<LabelField name="ЭтапыОбработкиДанныхТекущееID" id="334">
+											<DataPath>ЭтапыОбработкиДанных.ТекущееID</DataPath>
+											<ContextMenu name="ЭтапыОбработкиДанныхТекущееIDКонтекстноеМеню" id="335"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхТекущееIDРасширеннаяПодсказка" id="336"/>
+										</LabelField>
+										<LabelField name="ЭтапыОбработкиДанныхСтандартнаяКартинка" id="340">
+											<DataPath>ЭтапыОбработкиДанных.DefaultPicture</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="ЭтапыОбработкиДанныхСтандартнаяКартинкаКонтекстноеМеню" id="341"/>
+											<ExtendedTooltip name="ЭтапыОбработкиДанныхСтандартнаяКартинкаРасширеннаяПодсказка" id="342"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+						<Page name="ГруппаПараметрыВременныеТаблицы" id="304">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Временные таблицы Postgres</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа параметры временные таблицы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<ExtendedTooltip name="ГруппаПараметрыВременныеТаблицыРасширеннаяПодсказка" id="305"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаВТ" id="373">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ВТ</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ВТ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаВТРасширеннаяПодсказка" id="374"/>
+									<ChildItems>
+										<Table name="СписокВременныеТаблицыPostgresОтбор" id="360">
+											<Representation>Tree</Representation>
+											<Autofill>true</Autofill>
+											<Width>60</Width>
+											<InitialTreeView>ExpandAllLevels</InitialTreeView>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>СписокВременныеТаблицыPostgres.Filter</DataPath>
+											<ViewMode>All</ViewMode>
+											<SettingsNamedItemDetailedRepresentation>false</SettingsNamedItemDetailedRepresentation>
+											<ContextMenu name="СписокВременныеТаблицыPostgresОтборКонтекстноеМеню" id="361"/>
+											<AutoCommandBar name="СписокВременныеТаблицыPostgresОтборКоманднаяПанель" id="362"/>
+											<ExtendedTooltip name="СписокВременныеТаблицыPostgresОтборРасширеннаяПодсказка" id="363"/>
+											<SearchStringAddition name="СписокВременныеТаблицыPostgresОтборСтрокаПоиска" id="364">
+												<AdditionSource>
+													<Item>СписокВременныеТаблицыPostgresОтбор</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокВременныеТаблицыPostgresОтборСтрокаПоискаКонтекстноеМеню" id="365"/>
+												<ExtendedTooltip name="СписокВременныеТаблицыPostgresОтборСтрокаПоискаРасширеннаяПодсказка" id="366"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СписокВременныеТаблицыPostgresОтборСостояниеПросмотра" id="367">
+												<AdditionSource>
+													<Item>СписокВременныеТаблицыPostgresОтбор</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокВременныеТаблицыPostgresОтборСостояниеПросмотраКонтекстноеМеню" id="368"/>
+												<ExtendedTooltip name="СписокВременныеТаблицыPostgresОтборСостояниеПросмотраРасширеннаяПодсказка" id="369"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СписокВременныеТаблицыPostgresОтборУправлениеПоиском" id="370">
+												<AdditionSource>
+													<Item>СписокВременныеТаблицыPostgresОтбор</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокВременныеТаблицыPostgresОтборУправлениеПоискомКонтекстноеМеню" id="371"/>
+												<ExtendedTooltip name="СписокВременныеТаблицыPostgresОтборУправлениеПоискомРасширеннаяПодсказка" id="372"/>
+											</SearchControlAddition>
+											<Events>
+												<Event name="OnChange">СписокВременныеТаблицыPostgresОтборПриИзменении</Event>
+											</Events>
+										</Table>
+										<Table name="СписокВременныеТаблицыPostgres" id="237">
+											<ChangeRowSet>false</ChangeRowSet>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<EnableStartDrag>true</EnableStartDrag>
+											<DataPath>СписокВременныеТаблицыPostgres</DataPath>
+											<RowPictureDataPath>СписокВременныеТаблицыPostgres.DefaultPicture</RowPictureDataPath>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+											<ContextMenu name="СписокВременныеТаблицыPostgresКонтекстноеМеню" id="238"/>
+											<AutoCommandBar name="СписокВременныеТаблицыPostgresКоманднаяПанель" id="239">
+												<ChildItems>
+													<Button name="СписокВременныеТаблицыPostgresПоказатьКолонкиВременнойТаблицы" id="265">
+														<Type>CommandBarButton</Type>
+														<Check>true</Check>
+														<CommandName>Form.Command.ПоказатьКолонкиВременнойТаблицы</CommandName>
+														<ExtendedTooltip name="СписокВременныеТаблицыPostgresПоказатьКолонкиВременнойТаблицыРасширеннаяПодсказка" id="266"/>
+													</Button>
+													<Button name="СписокВременныеТаблицыPostgresЗагрузитьИсправленныеСозданияВременныхТаблиц" id="408">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ЗагрузитьИсправленныеСозданияВременныхТаблиц</CommandName>
+														<ExtendedTooltip name="СписокВременныеТаблицыPostgresЗагрузитьИсправленныеСозданияВременныхТаблицРасширеннаяПодсказка" id="409"/>
+													</Button>
+													<Button name="ОтборВТ" id="375">
+														<Type>CommandBarButton</Type>
+														<CommandName>Form.Command.ОтборВТ</CommandName>
+														<ExtendedTooltip name="ОтборВТРасширеннаяПодсказка" id="376"/>
+													</Button>
+												</ChildItems>
+											</AutoCommandBar>
+											<ExtendedTooltip name="СписокВременныеТаблицыPostgresРасширеннаяПодсказка" id="240"/>
+											<SearchStringAddition name="СписокВременныеТаблицыPostgresСтрокаПоиска" id="241">
+												<AdditionSource>
+													<Item>СписокВременныеТаблицыPostgres</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокВременныеТаблицыPostgresСтрокаПоискаКонтекстноеМеню" id="242"/>
+												<ExtendedTooltip name="СписокВременныеТаблицыPostgresСтрокаПоискаРасширеннаяПодсказка" id="243"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СписокВременныеТаблицыPostgresСостояниеПросмотра" id="244">
+												<AdditionSource>
+													<Item>СписокВременныеТаблицыPostgres</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокВременныеТаблицыPostgresСостояниеПросмотраКонтекстноеМеню" id="245"/>
+												<ExtendedTooltip name="СписокВременныеТаблицыPostgresСостояниеПросмотраРасширеннаяПодсказка" id="246"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СписокВременныеТаблицыPostgresУправлениеПоиском" id="247">
+												<AdditionSource>
+													<Item>СписокВременныеТаблицыPostgres</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СписокВременныеТаблицыPostgresУправлениеПоискомКонтекстноеМеню" id="248"/>
+												<ExtendedTooltip name="СписокВременныеТаблицыPostgresУправлениеПоискомРасширеннаяПодсказка" id="249"/>
+											</SearchControlAddition>
+											<Events>
+												<Event name="OnActivateRow">СписокВременныеТаблицыPostgresПриАктивизацииСтроки</Event>
+											</Events>
+											<ChildItems>
+												<LabelField name="СписокВременныеТаблицыPostgresИмяТаблицы" id="250">
+													<DataPath>СписокВременныеТаблицыPostgres.ИмяТаблицы</DataPath>
+													<ContextMenu name="СписокВременныеТаблицыPostgresИмяТаблицыКонтекстноеМеню" id="251"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresИмяТаблицыРасширеннаяПодсказка" id="252"/>
+												</LabelField>
+												<LabelField name="СписокВременныеТаблицыPostgresНомерСессии" id="256">
+													<DataPath>СписокВременныеТаблицыPostgres.НомерСессии</DataPath>
+													<ContextMenu name="СписокВременныеТаблицыPostgresНомерСессииКонтекстноеМеню" id="257"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresНомерСессииРасширеннаяПодсказка" id="258"/>
+												</LabelField>
+												<LabelField name="СписокВременныеТаблицыPostgresДатаСоздания" id="357">
+													<DataPath>СписокВременныеТаблицыPostgres.ДатаСоздания</DataPath>
+													<ContextMenu name="СписокВременныеТаблицыPostgresДатаСозданияКонтекстноеМеню" id="358"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresДатаСозданияРасширеннаяПодсказка" id="359"/>
+												</LabelField>
+												<CheckBoxField name="СписокВременныеТаблицыPostgresОшибкаСоздания" id="259">
+													<DataPath>СписокВременныеТаблицыPostgres.ОшибкаСоздания</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="СписокВременныеТаблицыPostgresОшибкаСозданияКонтекстноеМеню" id="260"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresОшибкаСозданияРасширеннаяПодсказка" id="261"/>
+												</CheckBoxField>
+												<LabelField name="СписокВременныеТаблицыPostgresОшибкаВыполнения" id="348">
+													<DataPath>СписокВременныеТаблицыPostgres.ОшибкаВыполнения</DataPath>
+													<ContextMenu name="СписокВременныеТаблицыPostgresОшибкаВыполненияКонтекстноеМеню" id="349"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresОшибкаВыполненияРасширеннаяПодсказка" id="350"/>
+												</LabelField>
+												<LabelField name="СписокВременныеТаблицыPostgresКоличествоСвязанныхСтрок" id="274">
+													<DataPath>СписокВременныеТаблицыPostgres.КоличествоСвязанныхСтрок</DataPath>
+													<ContextMenu name="СписокВременныеТаблицыPostgresКоличествоСвязанныхСтрокКонтекстноеМеню" id="275"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresКоличествоСвязанныхСтрокРасширеннаяПодсказка" id="276"/>
+												</LabelField>
+												<LabelField name="СписокВременныеТаблицыPostgresСкриптСоздания" id="343">
+													<DataPath>СписокВременныеТаблицыPostgres.СкриптСоздания</DataPath>
+													<ContextMenu name="СписокВременныеТаблицыPostgresСкриптСозданияКонтекстноеМеню" id="344"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresСкриптСозданияРасширеннаяПодсказка" id="345"/>
+												</LabelField>
+												<LabelField name="СписокВременныеТаблицыPostgresНомерСобытия" id="377">
+													<DataPath>СписокВременныеТаблицыPostgres.НомерСобытия</DataPath>
+													<ContextMenu name="СписокВременныеТаблицыPostgresНомерСобытияКонтекстноеМеню" id="378"/>
+													<ExtendedTooltip name="СписокВременныеТаблицыPostgresНомерСобытияРасширеннаяПодсказка" id="379"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="СписокПоляВременныхТаблицыPostgres" id="200">
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>СписокПоляВременныхТаблицыPostgres</DataPath>
+									<RowPictureDataPath>СписокПоляВременныхТаблицыPostgres.DefaultPicture</RowPictureDataPath>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="СписокПоляВременныхТаблицыPostgresКонтекстноеМеню" id="201"/>
+									<AutoCommandBar name="СписокПоляВременныхТаблицыPostgresКоманднаяПанель" id="202">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresРасширеннаяПодсказка" id="203"/>
+									<SearchStringAddition name="СписокПоляВременныхТаблицыPostgresСтрокаПоиска" id="204">
+										<AdditionSource>
+											<Item>СписокПоляВременныхТаблицыPostgres</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокПоляВременныхТаблицыPostgresСтрокаПоискаКонтекстноеМеню" id="205"/>
+										<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresСтрокаПоискаРасширеннаяПодсказка" id="206"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="СписокПоляВременныхТаблицыPostgresСостояниеПросмотра" id="207">
+										<AdditionSource>
+											<Item>СписокПоляВременныхТаблицыPostgres</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокПоляВременныхТаблицыPostgresСостояниеПросмотраКонтекстноеМеню" id="208"/>
+										<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresСостояниеПросмотраРасширеннаяПодсказка" id="209"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="СписокПоляВременныхТаблицыPostgresУправлениеПоиском" id="210">
+										<AdditionSource>
+											<Item>СписокПоляВременныхТаблицыPostgres</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="СписокПоляВременныхТаблицыPostgresУправлениеПоискомКонтекстноеМеню" id="211"/>
+										<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresУправлениеПоискомРасширеннаяПодсказка" id="212"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="СписокПоляВременныхТаблицыPostgresНомерПоля" id="225">
+											<DataPath>СписокПоляВременныхТаблицыPostgres.НомерПоля</DataPath>
+											<ContextMenu name="СписокПоляВременныхТаблицыPostgresНомерПоляКонтекстноеМеню" id="226"/>
+											<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresНомерПоляРасширеннаяПодсказка" id="227"/>
+										</LabelField>
+										<LabelField name="СписокПоляВременныхТаблицыPostgresИмя" id="213">
+											<DataPath>СписокПоляВременныхТаблицыPostgres.Имя</DataPath>
+											<ContextMenu name="СписокПоляВременныхТаблицыPostgresИмяКонтекстноеМеню" id="214"/>
+											<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresИмяРасширеннаяПодсказка" id="215"/>
+										</LabelField>
+										<LabelField name="СписокПоляВременныхТаблицыPostgresТип" id="231">
+											<DataPath>СписокПоляВременныхТаблицыPostgres.Тип</DataPath>
+											<ContextMenu name="СписокПоляВременныхТаблицыPostgresТипКонтекстноеМеню" id="232"/>
+											<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresТипРасширеннаяПодсказка" id="233"/>
+										</LabelField>
+										<LabelField name="СписокПоляВременныхТаблицыPostgresИмяТипа" id="219">
+											<DataPath>СписокПоляВременныхТаблицыPostgres.ИмяТипа</DataPath>
+											<ContextMenu name="СписокПоляВременныхТаблицыPostgresИмяТипаКонтекстноеМеню" id="220"/>
+											<ExtendedTooltip name="СписокПоляВременныхТаблицыPostgresИмяТипаРасширеннаяПодсказка" id="221"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.НастройкаТеста</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="РезультатыВыполненияЗапросов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты выполнения запросов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	НастройкаТеста,
+	ДатаСобытия,
+	НомерСессии,
+	НомерСобытия,
+	//ИмяСобытия,
+	ВидСобытия,
+	ТекстЗапросаMSSQL,
+	КоличествоСтрокMSSQL,
+	ДлительностьВыполненияMSSQL,
+	ТекстЗапросаPostgres,
+	КоличествоСтрокPostgres,
+	ДлительностьВыполненияPostgres,
+	ВидОшибки,
+	ОшибкаПреобразования,
+	ОшибкаПриВыполнения,
+	ТекстОшибки
+ИЗ
+	РегистрСведений.РезультатыВыполненияЗапросов КАК РегистрСведенийРезультатыВыполненияЗапросов
+ГДЕ
+	НастройкаТеста = &amp;НастройкаТеста</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОшибкаПриВыполнения</dcssch:dataPath>
+					<dcssch:field>ОшибкаПриВыполнения</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:useRestriction>
+					<dcssch:attributeUseRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:attributeUseRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НастройкаТеста</dcssch:dataPath>
+					<dcssch:field>НастройкаТеста</dcssch:field>
+					<dcssch:attributeUseRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:attributeUseRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидСобытия</dcssch:dataPath>
+					<dcssch:field>ВидСобытия</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:useRestriction>
+					<dcssch:attributeUseRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:attributeUseRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаСобытия</dcssch:dataPath>
+					<dcssch:field>ДатаСобытия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекстЗапросаPostgres</dcssch:dataPath>
+					<dcssch:field>ТекстЗапросаPostgres</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерСобытия</dcssch:dataPath>
+					<dcssch:field>НомерСобытия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерСессии</dcssch:dataPath>
+					<dcssch:field>НомерСессии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекстЗапросаMSSQL</dcssch:dataPath>
+					<dcssch:field>ТекстЗапросаMSSQL</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоСтрокMSSQL</dcssch:dataPath>
+					<dcssch:field>КоличествоСтрокMSSQL</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:useRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДлительностьВыполненияMSSQL</dcssch:dataPath>
+					<dcssch:field>ДлительностьВыполненияMSSQL</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:useRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоСтрокPostgres</dcssch:dataPath>
+					<dcssch:field>КоличествоСтрокPostgres</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:useRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДлительностьВыполненияPostgres</dcssch:dataPath>
+					<dcssch:field>ДлительностьВыполненияPostgres</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидОшибки</dcssch:dataPath>
+					<dcssch:field>ВидОшибки</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:useRestriction>
+					<dcssch:attributeUseRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:attributeUseRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОшибкаПреобразования</dcssch:dataPath>
+					<dcssch:field>ОшибкаПреобразования</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:useRestriction>
+					<dcssch:attributeUseRestriction>
+						<dcssch:order>true</dcssch:order>
+					</dcssch:attributeUseRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекстОшибки</dcssch:dataPath>
+					<dcssch:field>ТекстОшибки</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>НастройкаТеста</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка теста</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.НастройкаТеста</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<MainTable>InformationRegister.РезультатыВыполненияЗапросов</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>НастройкаТеста</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>ДатаСобытия</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>НомерСессии</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:use>false</dcsset:use>
+							<dcsset:field>НомерСобытия</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ВременныеТаблицыMSSQL" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Временные таблицы MSSQL</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="session_id" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Session id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="table_id" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Table id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="table_full_name" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Table full name</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="table_name" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Table name</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="col_id" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Col id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="col_name" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Col name</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="data_name" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Data name</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="data_len" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Data len</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="data_nullable" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Data nullable</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="col_max" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Col id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="precision" id="12">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Col id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="scale" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Col id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ВременныеТаблицыPostgres" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Временные таблицы postgres</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ИмяТаблицы" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерСессии" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер сессии</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОшибкаСоздания" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть ошибка  ДЛЯ ОТСУСТВУЮЩИХ ВТ для установки ошибки преобразования СвязанныйЗапрос</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="КоличествоСвязанныхСтрок" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество связанных строк</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СоответствиеТиповДанных" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соответствие типов данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ТипMSSQL" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип MSSQL</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ТипPG" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип PG</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Скобки" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скобки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПостфиксПоля" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Постфикс поля</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТекстСтатистики" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст статистики</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказатьОтбор" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать отбор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказатьОтбор</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПоказТекстаPG" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показ текста PG</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказТекстаPG</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПоказТекстаMSSQL" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показ текста MS SQL</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказТекстаMSSQL</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ВидыСобытий" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соответсвия подстрок в текстах запросов MSSQL и видов событий. Пока достаточно строк в начале, может быть нужно  будет потом расширить поискам еще дополнительной подстроки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НачинаетсяС" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начинается С</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ВидСобытия" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид события</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыСобытийЗапросов</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Подстрока" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подстрока в любом месте</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТекстДлительности" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст длительности</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОшибкиПреобразования" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кеш таблица Ошибки преобразования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Ссылка" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОшибкиПреобразования</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Преобразование0x01" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ЗадвоенныеВТ" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОтсутствуетВТ" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СложныйЗапросTOP" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НесколькоTOP" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="НепонятныйВидИндекса" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="СвязанныйЗапрос" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОтладкаСозданияВТ" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ОтладкаСозданияЗапросов" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ПропущеноНаполнениеВТ" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Преобразование0x01</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ПоляВременныхТаблицыPostgres" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поля временных таблицы postgres</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ИмяТаблицы" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя таблицы</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерСессии" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер сессии</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Имя" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Тип" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="НомерПоля" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер поля</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяТипа" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя типа - только имя типа, без ограничений, например numeric</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Длина" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Длина</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СоответствиеИменТиповДанных" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соответствие типов данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ИмяТипаMSSQL" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя типа MSSQL</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИмяТипаPG" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя типа PG</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СписокВременныеТаблицыPostgres" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список временные таблицы postgres</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	НастройкаТеста,
+	НомерСессии,
+	ИмяТаблицы,
+	ДатаСоздания,
+	ОшибкаСоздания,
+	ОшибкаВыполнения,
+	КоличествоСвязанныхСтрок,
+	СкриптСоздания,
+	НомерСобытия
+ИЗ
+	РегистрСведений.ВременныеТаблицыPostgres
+ГДЕ
+	НастройкаТеста = &amp;НастройкаТеста</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НастройкаТеста</dcssch:dataPath>
+					<dcssch:field>НастройкаТеста</dcssch:field>
+					<dcssch:attributeUseRestriction>
+						<dcssch:condition>true</dcssch:condition>
+					</dcssch:attributeUseRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерСессии</dcssch:dataPath>
+					<dcssch:field>НомерСессии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяТаблицы</dcssch:dataPath>
+					<dcssch:field>ИмяТаблицы</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОшибкаСоздания</dcssch:dataPath>
+					<dcssch:field>ОшибкаСоздания</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КоличествоСвязанныхСтрок</dcssch:dataPath>
+					<dcssch:field>КоличествоСвязанныхСтрок</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:condition>true</dcssch:condition>
+					</dcssch:useRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СкриптСоздания</dcssch:dataPath>
+					<dcssch:field>СкриптСоздания</dcssch:field>
+					<dcssch:useRestriction>
+						<dcssch:condition>true</dcssch:condition>
+					</dcssch:useRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОшибкаВыполнения</dcssch:dataPath>
+					<dcssch:field>ОшибкаВыполнения</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаСоздания</dcssch:dataPath>
+					<dcssch:field>ДатаСоздания</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерСобытия</dcssch:dataPath>
+					<dcssch:field>НомерСобытия</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>НастройкаТеста</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка теста</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.НастройкаТеста</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:availableAsField>false</dcssch:availableAsField>
+				</Parameter>
+				<MainTable>InformationRegister.ВременныеТаблицыPostgres</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>НастройкаТеста</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>НомерСессии</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ИмяТаблицы</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="СписокПоляВременныхТаблицыPostgres" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список поля временных таблицы postgres</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	НастройкаТеста,
+	НомерСессии,
+	ИмяТаблицы,
+	ДатаСоздания,
+	НомерПоля,
+	Имя,
+	Тип,
+	ИмяТипа
+ИЗ
+	РегистрСведений.ПоляВременныхТаблицыPostgres
+ГДЕ
+	НастройкаТеста = &amp;НастройкаТеста
+	И НомерСессии = &amp;НомерСессии
+	И ИмяТаблицы = &amp;ИмяТаблицы
+	И ДатаСоздания = &amp;ДатаСоздания
+	И НомерСобытия = &amp;НомерСобытия
+</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Имя</dcssch:dataPath>
+					<dcssch:field>Имя</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НастройкаТеста</dcssch:dataPath>
+					<dcssch:field>НастройкаТеста</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяТипа</dcssch:dataPath>
+					<dcssch:field>ИмяТипа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерСессии</dcssch:dataPath>
+					<dcssch:field>НомерСессии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяТаблицы</dcssch:dataPath>
+					<dcssch:field>ИмяТаблицы</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерПоля</dcssch:dataPath>
+					<dcssch:field>НомерПоля</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Тип</dcssch:dataPath>
+					<dcssch:field>Тип</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаСоздания</dcssch:dataPath>
+					<dcssch:field>ДатаСоздания</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерСобытия</dcssch:dataPath>
+					<dcssch:field>НомерСобытия</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>ИмяТаблицы</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя таблицы</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:string"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:availableAsField>false</dcssch:availableAsField>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>НастройкаТеста</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка теста</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.НастройкаТеста</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:availableAsField>false</dcssch:availableAsField>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>НомерСессии</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер сессии</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>0</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:decimal">0</dcssch:value>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:availableAsField>false</dcssch:availableAsField>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>ДатаСоздания</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата создания</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:availableAsField>false</dcssch:availableAsField>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>НомерСобытия</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер события</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>0</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:decimal">0</dcssch:value>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:availableAsField>false</dcssch:availableAsField>
+				</Parameter>
+				<MainTable>InformationRegister.ПоляВременныхТаблицыPostgres</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>НастройкаТеста</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>НомерСессии</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ИмяТаблицы</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>НомерПоля</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ВремХранилище" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Врем хранилище</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="КэшВидов" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кэш видов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СохраненыеОтборыНастройкиТеста" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохраненые отборы настройки теста</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Порядок" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Порядок</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Имя" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Представление" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Имя</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Настройка" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка</v8:content>
+						</v8:item>
+					</Title>
+					<Type/>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ЭтапыОбработкиДанных" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Этапы обработки данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	НастройкаТеста,
+	ЭтапОбработки,
+	Завершен,
+	ТекущаяДатаСобытия,
+	ТекущееID,
+	НомерИтерации,
+	Длительность
+ИЗ
+	РегистрСведений.ЭтапыОбработкиДанных 
+ГДЕ
+	НастройкаТеста = &amp;НастройкаТеста
+</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Длительность</dcssch:dataPath>
+					<dcssch:field>Длительность</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НастройкаТеста</dcssch:dataPath>
+					<dcssch:field>НастройкаТеста</dcssch:field>
+					<dcssch:attributeUseRestriction>
+						<dcssch:condition>true</dcssch:condition>
+					</dcssch:attributeUseRestriction>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Завершен</dcssch:dataPath>
+					<dcssch:field>Завершен</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЭтапОбработки</dcssch:dataPath>
+					<dcssch:field>ЭтапОбработки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекущаяДатаСобытия</dcssch:dataPath>
+					<dcssch:field>ТекущаяДатаСобытия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекущееID</dcssch:dataPath>
+					<dcssch:field>ТекущееID</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерИтерации</dcssch:dataPath>
+					<dcssch:field>НомерИтерации</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>НастройкаТеста</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка теста</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.НастройкаТеста</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:availableAsField>false</dcssch:availableAsField>
+				</Parameter>
+				<MainTable>InformationRegister.ЭтапыОбработкиДанных</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ЭтапОбработки.Порядок</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="АдресХранилища" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес хранилища</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказатьОтборВТ" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать отбор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказатьОтборВТ</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИзменилсяОтборВТ" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Изменился отбор ВТ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+			<Save>
+				<Field>ИзменилсяОтборВТ</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПоказатьШапка" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать отбор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказатьШапка</Field>
+			</Save>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="УдалитьДанные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьДанные</Action>
+		</Command>
+		<Command name="ЗагрузитьДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные по логам снятых запросов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьДанные</Action>
+		</Command>
+		<Command name="СоздатьТекстыЗапросов" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тексты запросов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тексты запросов для Postgres</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьТекстыЗапросов</Action>
+		</Command>
+		<Command name="ВыполнитьЗапросы" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить запросы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить запросы на сервере Postgres</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗапросы</Action>
+		</Command>
+		<Command name="ЗагрузитьВременныеТаблицы" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить временные таблицы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные по существующим временным таблицам на начало снятия запросов в MS SQL. 
+Вначале выполняется очистка существующих данных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьВременныеТаблицы</Action>
+		</Command>
+		<Command name="ЗагрузитьВсе" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные по логам запросов и временным таблицам из MS SQL</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьВсе</Action>
+		</Command>
+		<Command name="ПоказТекстаMSSQL" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показ текста MS SQL</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показ текста запроса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказТекстаЗапроса</Action>
+		</Command>
+		<Command name="ПоказТекстаPG" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показ текста PG</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показ текста запроса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказТекстаЗапроса</Action>
+		</Command>
+		<Command name="УдалитьДанныеСОтбором" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить данные с отбором</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить данные выбранные отбором</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьДанныеСОтбором</Action>
+		</Command>
+		<Command name="Отбор" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать скрыть Отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отбор</Action>
+		</Command>
+		<Command name="ПоказатьПараметры" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доп параметры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать дополнительные параметры параметры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьПараметры</Action>
+		</Command>
+		<Command name="ПоказатьКолонкиВременнойТаблицы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Колонки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать колонки временной таблицы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьКолонкиВременнойТаблицы</Action>
+		</Command>
+		<Command name="УбратьОшибкуПреобразования" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать ошибку </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убирает ошибку преобразования. 
+Если это ошибка создания временной таблицы из текущей строки и таблицы "Временные таблицы Postgres", дозаполняет данные в таблице "Поля вренных таблиц Postgres"</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УбратьОшибкуПреобразования</Action>
+		</Command>
+		<Command name="СохранитьОтбор" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.SaveReportSettings</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СохранитьОтбор</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ЗагрузитьОтбор" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.LoadReportSettings</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьОтбор</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="НастройкаОтбора" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка списка сохраненных отборов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастройкаОтбора</Action>
+		</Command>
+		<Command name="ТекстЗапросаСВТ" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст запроса с ВТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формирует строку с текстм запроса из текущей записи с добавление текстов создания ВТ, которые используются в тексте запроса.
+Полученный текст копируется в буфер обмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.СкопироватьВБуферОбмена</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ТекстЗапросаСВТ</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="СоздатьВременныеТаблицы" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать временные таблицы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать временные таблицы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьВременныеТаблицы</Action>
+		</Command>
+		<Command name="ОтборВТ" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать скрыть Отбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтборВТ</Action>
+		</Command>
+		<Command name="СоздатьТекстыПоВыделеннымСтрокам" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тексты по выделенным строкам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тексты запросов по выделенным строкам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьТекстыПоВыделеннымСтрокам</Action>
+		</Command>
+		<Command name="ЗагрузитьИсправленныеСозданияВременныхТаблиц" id="21">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить исправленные создания ВТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить исправленные создания временных таблиц, выполненные в текущем или других настройках тестов.</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьИсправленныеСозданияВременныхТаблиц</Action>
+		</Command>
+		<Command name="Шапка" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать / скрыть Шапку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Шапка</Action>
+		</Command>
+		<Command name="УстановкаСвязанныхЗапросов" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установка связанных запросов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установка связанных запросов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановкаСвязанныхЗапросов</Action>
+		</Command>
+		<Command name="ВыполнитьЗапросыПоВыделеннымСтрокам" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить по выделенным строкам</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить запросы по выделенным строкам</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьЗапросыПоВыделеннымСтрокам</Action>
+		</Command>
+		<Command name="ДополнитьВременныеТаблицы" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнить временные таблицы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополняет данные по существующим временным таблицам на начало снятия запросов в MS SQL. 
+Очистка существующих данных не выполняется</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДополнитьВременныеТаблицы</Action>
+		</Command>
+		<Command name="СоздатьТекстыПоОтбору" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тексты по отбору</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать тексты запросов по выставленному отбору</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СоздатьТекстыПоОтбору</Action>
+		</Command>
+	</Commands>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>InformationRegister.РезультатыВыполненияЗапросов.StandardCommand.OpenByValue.НастройкаТеста</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+				<Visible>
+					<xr:Common>false</xr:Common>
+				</Visible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

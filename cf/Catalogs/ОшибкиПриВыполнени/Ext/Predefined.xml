@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.18">
+	<Item id="6422cafd-b3ac-4511-ad33-3edd6e2ec8ca">
+		<Name>ЗапросНеПопалВСвязанныеПриОшибкеВТ</Name>
+		<Code/>
+		<Description>Запрос не попал в связанные при ошибке ВТ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="211dc7a7-bf4d-4600-800a-2e33d50d1d4f">
+		<Name>НеВыполнилсяПоТаймауту</Name>
+		<Code/>
+		<Description>Не выполнился по таймауту</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5f75e1f5-f769-4c6d-8854-99e15e4ca969">
+		<Name>НеНайденаПодходящаяВТ</Name>
+		<Code/>
+		<Description>Не найдена подходящая ВТ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dc5e7944-078c-41be-ab15-0c68b287fafe">
+		<Name>ОшибкаВыполненияСкриптаСозданияВТ</Name>
+		<Code/>
+		<Description>Ошибка выполнения скрипта создания ВТ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7322574f-65a5-4a19-9735-eaf684e77cff">
+		<Name>ОшибкаПриПодсчетеКоличестваСтрокРезультатаЗапроса</Name>
+		<Code/>
+		<Description>Ошибка при подсчете количества строк результата запроса</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Pages name="ГруппаСтраницы" id="49">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="50"/>
+			<ChildItems>
+				<Page name="ГруппаОсновное" id="51">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="52"/>
+					<ChildItems>
+						<InputField name="ДатаСобытия" id="4">
+							<DataPath>Запись.ДатаСобытия</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДатаСобытияКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ДатаСобытияРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="НомерСессии" id="7">
+							<DataPath>Запись.НомерСессии</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НомерСессииКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="НомерСессииРасширеннаяПодсказка" id="9"/>
+						</InputField>
+						<InputField name="НомерСобытия" id="10">
+							<DataPath>Запись.НомерСобытия</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НомерСобытияКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="НомерСобытияРасширеннаяПодсказка" id="12"/>
+						</InputField>
+						<InputField name="ИмяСобытия" id="13">
+							<DataPath>1/0:131b3108-49cb-4d80-b71e-907de6aebc3b</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ИмяСобытияКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ИмяСобытияРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="ВидСобытия" id="16">
+							<DataPath>Запись.ВидСобытия</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВидСобытияКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ВидСобытияРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="НастройкаТеста" id="1">
+							<DataPath>Запись.НастройкаТеста</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="НастройкаТестаКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="НастройкаТестаРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="КоличествоСтрокMSSQL" id="22">
+							<DataPath>Запись.КоличествоСтрокMSSQL</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КоличествоСтрокMSSQLКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="КоличествоСтрокMSSQLРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="ДлительностьВыполненияMSSQL" id="25">
+							<DataPath>Запись.ДлительностьВыполненияMSSQL</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДлительностьВыполненияMSSQLКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ДлительностьВыполненияMSSQLРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="КоличествоСтрокPostgres" id="31">
+							<DataPath>Запись.КоличествоСтрокPostgres</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КоличествоСтрокPostgresКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="КоличествоСтрокPostgresРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="ДлительностьВыполненияPostgres" id="34">
+							<DataPath>Запись.ДлительностьВыполненияPostgres</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДлительностьВыполненияPostgresКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ДлительностьВыполненияPostgresРасширеннаяПодсказка" id="36"/>
+						</InputField>
+						<CheckBoxField name="ОтладкаВыполнения" id="55">
+							<DataPath>Запись.ОшибкаПриВыполнения</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОтладкаВыполненияКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ОтладкаВыполненияРасширеннаяПодсказка" id="57"/>
+						</CheckBoxField>
+						<InputField name="ВидОшибки" id="37">
+							<DataPath>Запись.ВидОшибки</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВидОшибкиКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ВидОшибкиРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="ОшибкаПреобразования" id="40">
+							<DataPath>Запись.ОшибкаПреобразования</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОшибкаПреобразованияКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ОшибкаПреобразованияРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="ТекстОшибки" id="43">
+							<DataPath>Запись.ТекстОшибки</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТекстОшибкиКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="ТекстОшибкиРасширеннаяПодсказка" id="45"/>
+						</InputField>
+						<InputField name="ПроизвольнаяИнформация" id="46">
+							<DataPath>1/0:3068bf8d-fe6d-4812-8126-ca3ac257e909</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПроизвольнаяИнформацияКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="ПроизвольнаяИнформацияРасширеннаяПодсказка" id="48"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаТекстыЗапросов" id="53">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тексты запросов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа тексты запросов</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ГруппаТекстыЗапросовРасширеннаяПодсказка" id="54"/>
+					<ChildItems>
+						<InputField name="ТекстЗапросаMSSQL" id="19">
+							<DataPath>Запись.ТекстЗапросаMSSQL</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТекстЗапросаMSSQLКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ТекстЗапросаMSSQLРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="ТекстЗапросаPostgres" id="28">
+							<DataPath>Запись.ТекстЗапросаPostgres</DataPath>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТекстЗапросаPostgresКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ТекстЗапросаPostgresРасширеннаяПодсказка" id="30"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.РезультатыВыполненияЗапросов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

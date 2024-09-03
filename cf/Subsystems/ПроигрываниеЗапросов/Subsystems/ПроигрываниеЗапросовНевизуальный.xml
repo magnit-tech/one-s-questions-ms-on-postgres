@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Subsystem uuid="85828fda-1584-4f40-b857-a24221f811b6">
+		<Properties>
+			<Name>ПроигрываниеЗапросовНевизуальный</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проигрывание запросов невизуальный</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестовВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестовКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестовКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестовСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестов_Загрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыПроигрываниеЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыСобытийЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыЭтаповОбработки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыОшибокЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВременныеТаблицы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВременныеТаблицыPostgres</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПоляВременныхТаблицыPostgres</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РезультатыВыполненияЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЭтапыОбработкиДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExternalDataSource.РасширенныеСобытия.Table.dbo_QueryAnalysis</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестов_СозданиеЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестов_ВыполнениеЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПроизвольныйНепериодический</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТМ_ОбщегоНазначенияСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТМ_ОбщегоНазначенияКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТМ_ОбщегоНазначенияПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестов_СозданиеВременныхТаблиц</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПланЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТМ_ОбщегоНазначенияГлобальный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестов_УстановкаСвязанныхЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПереходящиеПодготовленныеОператоры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПодготовленныеОператоры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПараметрыПодготовленныхОператоров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИменаВТПодготовленныхОператоров</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

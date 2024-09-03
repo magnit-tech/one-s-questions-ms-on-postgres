@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<CommandsVisibility>
+		<Command name="Catalog.НастройкаТеста.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ExternalDataSource.РасширенныеСобытия.Table.dbo_QueryAnalysis.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ВнешниеПользователи.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ВремяТекущегоСеанса">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ГруппыПользователей.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ДлительныеОперации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.КэшПрограммныхИнтерфейсов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновленияОбщихДанных.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ОписаниеОбработчиковОбновления.Command.ОписаниеОбработчиковОбновления">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОтправленныеСерверныеОповещения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ExchangePlan.ОбновлениеИнформационнойБазы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПериодическиеСерверныеОповещения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПотокиОбновления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.ПредупрежденияПриЗавершенииРаботы">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПрогрессОбновления.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ФиксацияОбработкиДанныхОбработчиками.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.СохраненыеОтборыНастройкиТеста.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РезультатыВыполненияЗапросов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ВременныеТаблицы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ВременныеТаблицыPostgres.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПоляВременныхТаблицыPostgres.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ЭтапыОбработкиДанных.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПроизвольныйНепериодический.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.НаполненияВременныхТаблицPostgres.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.НастройкаТеста.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.АдресПубликацииИнформационнойБазыВИнтернете.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ВосстановлениеПаролей.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ВыборФорматаВложений.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="0:e24b06de-d1a6-46f1-a108-db2ae73b76fb">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ГруппыПользователей.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.КаталогВременныхФайловДляLinux.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.КаталогВременныхФайловДляWindows.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.КоличествоПотоковДлительныхОпераций.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.КоличествоПотоковОбновленияИнформационнойБазы.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.НастройкиПользователей.Command.КопированиеНастроекПользователей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.НастройкиВходаПользователей.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.НастройкиПользователей.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ОписаниеОбработчиковОбновления.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ОсновнойЯзык.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ОтложенноеОбновлениеЗавершеноУспешно.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.НастройкиПользователей.Command.ОчисткаНастроекПользователей">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ПорядокОбрабатываемыхДанных.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.Расширения.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.РегистрироватьПоказателиСерверныхОповещений.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.РедактированиеТабличногоДокумента.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.РекомендацияПоПовышениюСкоростиРаботы.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.СведенияОПользователе">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.СменитьПароль">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.СостояниеОтправкиСерверныхОповещений.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.СравнениеТабличныхДокументов.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Constant.СтандартныеПодсистемыВАвтономномРежиме.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаВыбораЦвета.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаВыбораШрифта.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Catalog.НастройкаТеста.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.СохраненыеОтборыНастройкиТеста.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.РезультатыВыполненияЗапросов.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ВременныеТаблицы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ВременныеТаблицыPostgres.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ПоляВременныхТаблицыPostgres.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ЭтапыОбработкиДанных.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.ПроизвольныйНепериодический.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.НаполненияВременныхТаблицPostgres.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Catalog.НастройкаТеста.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="ExternalDataSource.РасширенныеСобытия.Table.dbo_QueryAnalysis.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ВнешниеПользователи.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.ВремяТекущегоСеанса">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ГруппыВнешнихПользователей.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ГруппыПользователей.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ДлительныеОперации.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ЖурналРегистрации.Command.ЖурналРегистрации">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КэшПрограммныхИнтерфейсов.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновления.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ОбработчикиОбновленияОбщихДанных.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ОписаниеОбработчиковОбновления.Command.ОписаниеОбработчиковОбновления">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ОтправленныеСерверныеОповещения.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="ExchangePlan.ОбновлениеИнформационнойБазы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПериодическиеСерверныеОповещения.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПотокиОбновления.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.ПредупрежденияПриЗавершенииРаботы">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПрогрессОбновления.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ФиксацияОбработкиДанныхОбработчиками.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ОшибкиПреобразования.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ОшибкиПриВыполнени.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ИменаВТПодготовленныхОператоров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ИсправленныеСозданияВременныхТаблиц.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.КолонкиВТПодготовленныхОператоров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПараметрыПодготовленныхОператоров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПереходящиеПодготовленныеОператоры.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПодготовленныеОператоры.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.СохраненыеОтборыНастройкиТеста.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.РезультатыВыполненияЗапросов.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ВременныеТаблицы.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ВременныеТаблицыPostgres.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПоляВременныхТаблицыPostgres.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ЭтапыОбработкиДанных.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.ПроизвольныйНепериодический.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.НаполненияВременныхТаблицPostgres.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
+		</Command>
+		<Command name="Constant.ОбработкаБезФоновыхЗаданий.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.КоличествоПотоковФоновыхЗаданий.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ЗаписьОтладки.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ПорцияЗагрузкиДанных.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ИнтервалОбработкиДанных.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.АдресПубликацииИнформационнойБазыВИнтернете.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ВосстановлениеПаролей.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ВыборФорматаВложений.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="0:e24b06de-d1a6-46f1-a108-db2ae73b76fb">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ГруппыПользователей.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ЖурналРегистрации.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.КаталогВременныхФайловДляLinux.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.КаталогВременныхФайловДляWindows.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.КоличествоПотоковДлительныхОпераций.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.КоличествоПотоковОбновленияИнформационнойБазы.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.НастройкиПользователей.Command.КопированиеНастроекПользователей">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.НастройкиВходаПользователей.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.НастройкиПользователей.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.ОписаниеОбработчиковОбновления.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ОсновнойЯзык.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ОтложенноеОбновлениеЗавершеноУспешно.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.НастройкиПользователей.Command.ОчисткаНастроекПользователей">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.ПорядокОбрабатываемыхДанных.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.Расширения.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.РегистрироватьПоказателиСерверныхОповещений.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.РедактированиеТабличногоДокумента.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="DataProcessor.РекомендацияПоПовышениюСкоростиРаботы.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.СведенияОПользователе">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.СменитьПароль">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.СостояниеОтправкиСерверныхОповещений.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.СравнениеТабличныхДокументов.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="Constant.СтандартныеПодсистемыВАвтономномРежиме.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ФормаВыбораЦвета.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="CommonForm.ФормаВыбораШрифта.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+		<Group>ActionsPanelTools</Group>
+	</GroupsOrder>
+</CommandInterface>

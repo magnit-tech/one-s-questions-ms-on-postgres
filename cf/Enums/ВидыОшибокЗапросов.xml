@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="e1aaec6b-bce1-44d7-af91-8514f4ced146">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОшибокЗапросов" category="Ref">
+				<xr:TypeId>02aa3a40-6028-4d6e-a5cc-3a0184d4a4b6</xr:TypeId>
+				<xr:ValueId>e7996c2e-6ec1-4597-9fba-818beb11db75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОшибокЗапросов" category="Manager">
+				<xr:TypeId>f150ca32-ee6f-4af6-b1b4-d687d02fea85</xr:TypeId>
+				<xr:ValueId>37e23ec5-f90f-4ef6-a29d-a09c03bc5b2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОшибокЗапросов" category="List">
+				<xr:TypeId>1bc36f56-c45e-4bad-9152-f89e43f645cb</xr:TypeId>
+				<xr:ValueId>a25a93ac-871b-4bf7-acdb-18565103a9e6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОшибокЗапросов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды ошибок запросов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Order">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9e4fdd62-c1a2-4d62-8f8e-c057c3dcc317">
+				<Properties>
+					<Name>ОшибкаПреобразования</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибка преобразования</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Ошибка при конвертации запроса на Postgres, например Сложный TOP или 0x01</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="18efaa82-b74e-4ecd-a205-7fdb78037621">
+				<Properties>
+					<Name>ОшибкаPostgres</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибка postgres</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Ошибка при выполнении запроса на Postgres</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e6d3a475-fab4-4c62-9e13-264fd5f888fd">
+				<Properties>
+					<Name>ОшибкаMSSQL</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибка MS SQL</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Ошибка в логах - при выполнении на MSSQL</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="247144af-4918-49a1-b607-4f6a58d4479f">
+				<Properties>
+					<Name>ПропущенныйЗапросMsSQL</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пропущенный запрос MS SQL</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Запросы, которые ненужно выполнять, например COMMIT TRANSACTION или выборка из системых таблиц , например FROM v8users</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f5213a5c-a223-4d37-b97e-9e855445d9d8">
+				<Properties>
+					<Name>ПропущенныйЗапросPostgres</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пропущенный запрос Postgres</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Вид операции, который мы не используем, например Добавление, удаление данных </Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2ee8fbea-033b-42f1-ab36-20ce736f0c47">
+				<Properties>
+					<Name>ОшибочноеИспользованиеВТ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ошибочное использование ВТ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Использование в запросе ВТ, которая не была создана до этого запроса</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="65088ed6-a342-4922-a51d-2ae87bc9ea0e">
+				<Properties>
+					<Name>ПропускатьПриВыполнении</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пропускать при выполнении</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Выставляетя вручную, что бы не выполнялись запрос, при выполнении которых крошится 1С - без ошибок завершается сеанс. Преобразование запроса выполняется</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="69ad4134-c220-4824-92b4-43d0d5414cb9">
+				<Properties>
+					<Name>ПропускатьПриПреобразовании</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пропускать при преобразовании</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Выставляется вручную. По текущей строки не нужно выполнять преобразование и соответственно выполнение. Можно было строку удалить, сохранили для истории или других причин</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

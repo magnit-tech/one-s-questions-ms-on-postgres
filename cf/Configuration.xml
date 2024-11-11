@@ -53,7 +53,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.0.0.0</Version>
+			<Version>1.3.1.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -224,10 +224,6 @@
 				</app:functionality>
 				<app:functionality>
 					<app:functionality>AllIncomingShareRequestsTypesProcessing</app:functionality>
-					<app:use>false</app:use>
-				</app:functionality>
-				<app:functionality>
-					<app:functionality>TextToSpeech</app:functionality>
 					<app:use>false</app:use>
 				</app:functionality>
 			</UsedMobileApplicationFunctionalities>
@@ -540,10 +536,8 @@
 			<Role>ЧтениеВнешнихПользователей</Role>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
 			<CommonModule>ИТМ_ОбщегоНазначенияГлобальный</CommonModule>
-			<CommonModule>ИТМ_ОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>ИТМ_ОбщегоНазначенияПовтИсп</CommonModule>
 			<CommonModule>ИТМ_ОбщегоНазначенияСервер</CommonModule>
-			<CommonModule>ИТМ_РаботаСExcelКлиентСервер</CommonModule>
 			<CommonModule>НастройкаТестовВызовСервера</CommonModule>
 			<CommonModule>НастройкаТестовКлиент</CommonModule>
 			<CommonModule>НастройкаТестовКлиентСервер</CommonModule>
@@ -702,6 +696,8 @@
 			<Constant>СостояниеОтправкиСерверныхОповещений</Constant>
 			<Constant>СтандартныеПодсистемыВАвтономномРежиме</Constant>
 			<Constant>УдалитьНастройкиВходаПользователей</Constant>
+			<Constant>СсылкаOpenSearch</Constant>
+			<Constant>ИдентификаторПатернаOpenSearch</Constant>
 			<CommonForm>Вопрос</CommonForm>
 			<CommonForm>ВопросОбУстановкеВнешнейКомпоненты</CommonForm>
 			<CommonForm>ВопросОбУстановкеРасширенияРаботыСФайлами</CommonForm>
@@ -751,6 +747,7 @@
 			<Report>ДлительностьОтложенногоОбновления</Report>
 			<Report>ПрогрессОтложенногоОбновления</Report>
 			<Report>СведенияОПользователях</Report>
+			<Report>РезультатыТестирования</Report>
 			<DataProcessor>ЖурналРегистрации</DataProcessor>
 			<DataProcessor>НастройкиПользователей</DataProcessor>
 			<DataProcessor>НерекомендуемаяВерсияПлатформы</DataProcessor>

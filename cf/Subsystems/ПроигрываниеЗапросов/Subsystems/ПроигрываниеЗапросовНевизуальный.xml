@@ -35,7 +35,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестов_ВыполнениеЗапросов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПроизвольныйНепериодический</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТМ_ОбщегоНазначенияСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТМ_ОбщегоНазначенияКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">fbf4a9be-4e13-4c1f-9df9-44e951acc1f0</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИТМ_ОбщегоНазначенияПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкаТестов_СозданиеВременныхТаблиц</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ПланЗапросов</xr:Item>

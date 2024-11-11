@@ -262,6 +262,12 @@
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
+								<InputField name="ИмяБазыСнятияЛогов" id="457">
+									<DataPath>Объект.ИмяБазыСнятияЛогов</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ИмяБазыСнятияЛоговКонтекстноеМеню" id="458"/>
+									<ExtendedTooltip name="ИмяБазыСнятияЛоговРасширеннаяПодсказка" id="459"/>
+								</InputField>
 								<LabelField name="ТекстСтатистики" id="149">
 									<DataPath>ТекстСтатистики</DataPath>
 									<TitleLocation>None</TitleLocation>
@@ -556,6 +562,11 @@
 												<Type>CommandBarButton</Type>
 												<CommandName>Form.Command.ТекстЗапросаСВТ</CommandName>
 												<ExtendedTooltip name="РезультатыВыполненияЗапросовКонтекстноеМенюТекстЗапросаСВТРасширеннаяПодсказка" id="402"/>
+											</Button>
+											<Button name="РезультатыВыполненияЗапросовКонтекстноеМенюСсылкаНаСобытиеВOpenSearch" id="460">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.СсылкаНаСобытиеВOpenSearch</CommandName>
+												<ExtendedTooltip name="РезультатыВыполненияЗапросовКонтекстноеМенюСсылкаНаСобытиеВOpenSearchРасширеннаяПодсказка" id="461"/>
 											</Button>
 										</ChildItems>
 									</ContextMenu>
@@ -3329,6 +3340,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СоздатьТекстыПоОтбору</Action>
+		</Command>
+		<Command name="СсылкаНаСобытиеВOpenSearch" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на событие в open search</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на событие в open search</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.AddToFavorites</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СсылкаНаСобытиеВOpenSearch</Action>
 		</Command>
 	</Commands>
 	<CommandInterface>

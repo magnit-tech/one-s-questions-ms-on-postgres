@@ -16,7 +16,6 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">e24b06de-d1a6-46f1-a108-db2ae73b76fb</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НастройкаТеста</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОшибкиПреобразования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СохраненыеОтборыНастройкиТеста</xr:Item>
@@ -29,6 +28,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КолонкиВТПодготовленныхОператоров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.КоличествоПотоковФоновыхЗаданий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ОшибкиПриВыполнени</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РезультатыТестирования</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
